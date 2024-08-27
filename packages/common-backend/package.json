@@ -1,0 +1,23 @@
+{
+    "name": "@valexpress/common-backend",
+    "version": "0.11.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "Alex Valdiviezo & vuelderjs team",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "graphql-tag": "^2.12.6",
+        "jsonwebtoken": "^9.0.2"
+    },
+    "devDependencies": {
+        "@types/node": "^22.2.0",
+        "nodemon": "^3.1.4",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.4"
+    }
+}
